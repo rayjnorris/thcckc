@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+redirect 301 /patient-portal https://mycw31.eclinicalweb.com/portal3287/jsp/100mp/login_otp.jsp
+redirect 301 /news/patrick-sallee-named-chief-executive-officer-of-new-wyandotte-community-health-center http://thcckc.org/news/news.htm
+ 
+RewriteRule ^([^\.]+)$ $1.htm [L]
